@@ -1,0 +1,88 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.instructions {
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.instructions p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.dice-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+.die {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.die label {
+    font-weight: bold;
+}
+
+.die input {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    text-align: right;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+#rollButton {
+    display: block;
+    margin: 20px auto 0;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+}
+
+#rollButton:hover {
+    background-color: #555;
+}
+
+#rollButton:focus {
+    outline: 3px solid #999;
+}
+```

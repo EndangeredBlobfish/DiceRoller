@@ -1,0 +1,64 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahtzee Dice Roller</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body onload="rollDice()">
+
+    <main class="container">
+        <h1>Yahtzee Dice Roller</h1>
+
+        <section class="instructions">
+            <h2>How to Play</h2>
+            <p>
+                This application rolls five six-sided dice for a game of Yahtzee.
+                Click the Roll Dice button, or press Enter, to roll all five dice.
+            </p>
+        </section>
+
+        <section class="dice-section">
+            <h2>Dice Results</h2>
+
+            <div class="dice-container">
+                <div class="die">
+                    <label for="die1">Die 1</label>
+                    <input type="text" id="die1" readonly>
+                </div>
+
+                <div class="die">
+                    <label for="die2">Die 2</label>
+                    <input type="text" id="die2" readonly>
+                </div>
+
+                <div class="die">
+                    <label for="die3">Die 3</label>
+                    <input type="text" id="die3" readonly>
+                </div>
+
+                <div class="die">
+                    <label for="die4">Die 4</label>
+                    <input type="text" id="die4" readonly>
+                </div>
+
+                <div class="die">
+                    <label for="die5">Die 5</label>
+                    <input type="text" id="die5" readonly>
+                </div>
+            </div>
+
+            <button id="rollButton" onclick="rollDice()" autofocus>
+                Roll Dice
+            </button>
+        </section>
+    </main>
+
+</body>
+</html>
+```
